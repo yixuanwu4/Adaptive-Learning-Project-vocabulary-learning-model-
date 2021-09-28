@@ -1,15 +1,9 @@
-"""Pick the CET4_edited.txt, CET6_edited.txt, TOEFL_abridged.txt as data to categorize the user English level 
-(resource: https://github.com/mahavivo/english-wordlists), """
-# After knowing the level of words which the user aims for practice, then pick the corresponded vocabulary list set.
-# After practicing 50 words everyday, provide a small paragraph of reading material for the user to practice.
-
 from tkinter.constants import ANCHOR, BOTH, CENTER, END, LEFT, NW, RIGHT, SINGLE, Y, YES
 from tkinter import messagebox
 import io
 import tkinter as tk
 from tkinter import messagebox
 from tkinter.font import families
-from game import Dog
 from PIL import ImageTk, Image
 
 
@@ -17,6 +11,10 @@ def select_channel():
 
     def ok():
         ws.destroy()
+
+    def nextPage():
+        ws.destroy()
+        import Page2 
 
     ws = tk.Tk()
     ws.wm_geometry("1024x768")
@@ -48,7 +46,7 @@ def select_channel():
     frame.bind("<Configure>", resize_image)
     
     # Define a label for the list.  
-    label1Font = ("Brush Script Std", 20, "bold")
+    label1Font = ('Maiandra GD', 20, "bold")
     label = tk.Label(C, bg = "pink", font=label1Font, text = " Which level of vocabulary do you wish to practice? ") 
     label.pack(padx=10, pady=10)
 
@@ -73,7 +71,7 @@ def select_channel():
     show = tk.Label(C)
     show.pack()
 
-    button = tk.Button(C, text="OK", font = 50, command=ok)
+    button = tk.Button(C, text="OK", font = 50, command=nextPage)
 
 
     button.pack()
@@ -87,37 +85,3 @@ def select_channel():
 
 select_channel()
 print(choice)
-
-# Pick the right vocabulary list
-def extract_words (cet4, cet6, toefl):
-    cet4words = []
-    cet6words = []
-    toeflwords = []
-
-    with io.open(cet4, mode="r", encoding="utf-8") as f:
-        next(f)
-        next(f)
-        for line in f:
-            cet4words.append(line.split())
-    with io.open(cet6, mode="r", encoding="utf-8") as f:
-        next(f)
-        next(f)
-        for line in f:
-            cet6words.append(line.split())
-    with io.open(toefl, mode="r", encoding="utf-8") as f:
-        next(f)
-        next(f)
-        for line in f:
-            toeflwords.append(line.split())
-    return (cet4words, cet6words, toeflwords)
-
-cet4words, cet6words, toeflwords = extract_words ('CET4_edited.txt', 'CET6_edited.txt', 'TOEFL_abridged.txt')
-
-# target = answers["size"]
-
-if choice == "CET4":
-    print(cet4words)
-elif  choice == "CET6":
-    print(cet6words)
-else:
-    print(toeflwords)
