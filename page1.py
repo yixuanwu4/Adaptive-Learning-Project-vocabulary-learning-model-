@@ -5,16 +5,19 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter.font import families
 from PIL import ImageTk, Image
+from Page2 import Page2
 
+p2 = Page2()
 
 def select_channel():
+
 
     def ok():
         ws.destroy()
 
     def nextPage():
         ws.destroy()
-        import Page2 
+        p2.select_channel(p2)
 
     ws = tk.Tk()
     ws.wm_geometry("1024x768")
@@ -84,4 +87,5 @@ def select_channel():
 
 
 select_channel()
-print(choice)
+goal = p2.getgoal(p2)
+print(choice, goal)

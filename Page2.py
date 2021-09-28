@@ -8,7 +8,11 @@ from game import Dog
 from PIL import ImageTk, Image
 
 class Page2():
-    def select_channel():
+    def __init__(self):
+          # this is an instance variable.
+          self.somevar2 = 0
+
+    def select_channel(self, *args):
 
         def ok():
             ws.destroy()
@@ -57,28 +61,24 @@ class Page2():
                 ws.destroy()
             except:
                 import warningmessage
-        def warning():
-            label = tk.Label(C, bg = '#F9D1D1', font=label1Font, text = "Please type in only numbers!")
-            label.pack(padx=10, pady=100)
-
 
         b = tk.Button(C, text = 'okay!', font=label1Font, bg = '#F9D1D1', command = printtext)
         b.pack(padx=10, pady=100)
 
-
         show = tk.Label(C)
         show.pack()
 
-        # button = tk.Button(C, text="OK", font = 50, command=ok)
-        # button.pack()
-
-
-
-
         ws.mainloop()
+        global goal
+        goal = string
+    
+    def getgoal(self, *args):
+        return goal
 
 
+# x = Page2()
+# x.select_channel(x)
+# print(x.getgoal(x))
 
-Page2.select_channel()
 
 
