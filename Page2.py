@@ -62,7 +62,7 @@ class Page2():
             except:
                 import warningmessage
 
-        b = tk.Button(C, text = 'okay!', font=label1Font, bg = '#F9D1D1', command = printtext)
+        b = tk.Button(C, text = 'Okay! Now Let\'s start learning! :D', font=label1Font, bg = '#F9D1D1', command = printtext)
         b.pack(padx=10, pady=100)
 
         show = tk.Label(C)

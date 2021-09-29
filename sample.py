@@ -88,36 +88,6 @@ def select_channel():
 select_channel()
 print(choice)
 
-# Pick the right vocabulary list
-def extract_words (cet4, cet6, toefl):
-    cet4words = []
-    cet6words = []
-    toeflwords = []
-
-    with io.open(cet4, mode="r", encoding="utf-8") as f:
-        next(f)
-        next(f)
-        for line in f:
-            cet4words.append(line.split())
-    with io.open(cet6, mode="r", encoding="utf-8") as f:
-        next(f)
-        next(f)
-        for line in f:
-            cet6words.append(line.split())
-    with io.open(toefl, mode="r", encoding="utf-8") as f:
-        next(f)
-        next(f)
-        for line in f:
-            toeflwords.append(line.split())
-    return (cet4words, cet6words, toeflwords)
-
-cet4words, cet6words, toeflwords = extract_words ('CET4_edited.txt', 'CET6_edited.txt', 'TOEFL_abridged.txt')
 
 # target = answers["size"]
 
-if choice == "CET4":
-    print(cet4words)
-elif  choice == "CET6":
-    print(cet6words)
-else:
-    print(toeflwords)
