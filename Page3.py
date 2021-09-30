@@ -7,7 +7,7 @@ from tkinter.font import families
 import random
 from PIL import ImageTk, Image
 import datetime
-import csv
+import os.path
 import pandas as pd
 
 
@@ -98,6 +98,22 @@ class Page3():
         ### then add gamification factors into the word memorizing part
         ### meow meow meow food food 
 
+        # Convert the tageswords into a string
+        wordsstring = ''
+        for words in tageswords:
+            tmp = '\t'.join(words) + '\n'
+            wordsstring = wordsstring+tmp
+
+        # Save tageswords into a file with data
+        # The file name will be the date when the saved words are learned
+        time = datetime.datetime.now()
+        template = '%Y-%m-%d'
+        time_string = time.strftime(template)
+        save_path = '/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/oldwords'
+        completePath = os.path.join(save_path, time_string + ".txt") 
+        with open(completePath, 'w') as f:
+            f.write(wordsstring)
+            
 
 
 
