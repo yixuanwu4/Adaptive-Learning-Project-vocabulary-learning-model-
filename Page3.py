@@ -35,7 +35,7 @@ class Page3():
         C = tk.Canvas(frame, bg="pink", height=768, width=1024)
         C.pack(fill=BOTH, expand=True)
 
-        filename = tk.PhotoImage(file = "/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png")
+        filename = tk.PhotoImage(file = "/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png", master = ws)
         C.create_image(0, 0, image = filename, anchor='nw')
 
         # Function to resize the window
@@ -113,14 +113,16 @@ class Page3():
         completePath = os.path.join(save_path, time_string + ".txt") 
         with open(completePath, 'w') as f:
             f.write(wordsstring)
+        
+        return tageswords
             
 
 
 
-x = Page3()
-choice="CET4"
-goal = 5
-x.select_channel(goal, choice)
+# x = Page3()
+# choice="CET4"
+# goal = 5
+# x.select_channel(goal, choice)
 
 
 

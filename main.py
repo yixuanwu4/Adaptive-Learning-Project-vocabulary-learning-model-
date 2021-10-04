@@ -12,4 +12,5 @@ choice = Page1.getchoice()
 print(choice, goal)
 
 from Page3 import Page3
-p3 = Page3
+p3 = Page3()
+tageswords = p3.select_channel(goal, str(choice))
