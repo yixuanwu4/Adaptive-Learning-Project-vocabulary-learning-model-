@@ -1,2 +1,5 @@
-cohere	[kəu'hir]	vi.	附着,粘着,凝聚,符合
-disprove	[dis'pru:v]	vt.	证明……是不对的,提出……的反证,反驳
+medal	[ˈmedl]	n.奖章，勋章，纪念章
+best	[best]	a.最好的；最大的
+economy	[i(ː)ˈkɔnəmi]	n.经济；节约，节省
+tune	[tjuːn]	n.调子；和谐	vt.调谐
+month	[mʌnθ]	n.月，月份

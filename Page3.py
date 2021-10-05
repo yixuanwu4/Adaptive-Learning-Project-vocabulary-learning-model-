@@ -54,8 +54,8 @@ class Page3():
         
         # Define a label for the list.  
         label1Font = ("Baskerville Old Face", 20)
-        label = tk.Label(C, bg = '#F9D1D1', font=label1Font, text = " Now let's start learning!") 
-        label.pack(padx=10, pady=100)
+        label = tk.Label(C, bg = '#F9D1D1', font=label1Font, text = " Now let's start learning! \n Here are your words for today!") 
+        label.pack(padx=20, pady=30)
 
         # Pick the right vocabulary list
         def extract_words (cet4, cet6, toefl):
@@ -114,15 +114,23 @@ class Page3():
         with open(completePath, 'w') as f:
             f.write(wordsstring)
         
+        labelall = {}
+        
+        for x, eachword in enumerate(tageswords):
+            labelall[x] = tk.Label(C,font = label1Font, text = eachword, bg = "#ffb4a2")
+            labelall[x].pack(pady = 30)
+
+        ws.mainloop()
+        
         return tageswords
             
 
 
 
-# x = Page3()
-# choice="CET4"
-# goal = 5
-# x.select_channel(goal, choice)
+x = Page3()
+choice="CET4"
+goal = 5
+x.select_channel(goal, choice)
 
 
 
