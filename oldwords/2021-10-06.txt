@@ -1,50 +1,50 @@
-court	[kɔːt]	n.法院，法庭；庭院
-carrier	[ˈkæriə]	n.运输工具；运载工具
-capital	[ˈkæpitəl]	n.资本，资金；首都
-sing	[siŋ]	vi.&vt.唱，演唱
-unusually	[ʌnˈjuːʒəli]	a.不平常地，非常
-maintain	[meinˈtein]	vt.维持；赡养；维修
-anchor	[ˈæŋkə]	n.锚	vi.抛锚，停泊
-horn	[hɔːn]	n.号角；警报器；角
-sympathetic	[ˌsimpəˈθetik]	a.同情的；和谐的
-legal	[ˈliːgəl]	a.法律的；合法的
-ankle	[ˈæŋkl]	n.踝，踝节部
-resignation	[ˌrezigˈnei∫ən]	n.放弃，辞职，反抗
-via	[ˈvaiə]	prep.经过；通过
-widely	[ˈwaidli]	ad.广，广泛
-goods	[gudz]	n.货物，商品
-fraction	[ˈfræk∫ən]	n.小部分；片断；分数
-output	[ˈautput]	n.产量；输出量；输出
-manager[	ˈmænidʒə]	n.经理，管理人
-sour	[ˈsauə]	a.酸的；脾气坏的
-chapter	[ˈt∫æptə]	n.章，回，篇
-shave	[∫eiv]	vt.剃，刮	vi.修面
-primitive	[ˈprimitiv]	a.原始的；粗糙的
-sack	[sæk]	n.袋，麻袋；开除
-accordingly	[əˈkɔːdiŋli]	ad.因此，所以；照着
-university	[ˌjuːniˈvəːsiti]	n.大学，综合性大学
-sauce	[sɔːs]	n.调味汁，酱汁
-straight	[streit]	a.直的；正直的	ad.直
-shrink[∫riŋk]	vi.收缩；缩小；退缩
-overtake	[ˈəuvəˈteik]	vt.追上，赶上；压倒
-comparative	[kəmˈpærətiv]	a.比较的，相对的
-inner	[ˈinə]	a.内部的；内心的
-sandwich	[ˈsænwidʒ]	n.三明治	vt.夹入
-clap	[klæp]	vi.拍手	vt.拍，轻拍
-imply	[imˈplai]	vt.暗示，意指
-gray	[grei]	a.灰色的	n.灰色
-feedback	[ˈfiːdbæk]	n.回授，反馈，反应
-intellectual	[ˌintiˈlektjuəl]	n.知识分子	a.智力的
+summer	[ˈsʌmə]	n.夏，夏季
+responsibility	[risˌpɔnsəˈbiliti]	n.责任(心)；职责
+unhappy	[ʌnˈhæpi]	a.不幸福的，不快乐的
+trade	[treid]	n.贸易；职业	vi.交易
+precaution	[priˈkɔː∫ən]	n.预防；警惕
+span	[spæn]	n.跨距；一段时间
+kind	[kaind]	n.种类
+clay	[klei]	n.粘土，泥土；肉体
+furnish[ˈfəːni∫]	vt.供应，提供；装备
+digital	[ˈdidʒitl]	a.数字的，计数的
+afterward	[ˈɑːftəwəd]	ad.后来，以后
+rage	[reidʒ]	n.(一阵)狂怒，盛怒
+action	[ˈæk∫ən]	n.行动；作用；功能
+steadily	[ˈstedili]	ad.稳定地，不变地
+overtime	[ˈəuvətaim]	a.超时的，加班的
+resign	[riˈzain]	vt.放弃	vi.辞职
+motor	[ˈməutə]	n.发动机；机动车
+helpless	[ˈhelplis]	a.无助的；无能的
+labour	[ˈleibə(r)]	n.劳动；工作；劳工
+champion	[ˈt∫æmpjən]	n.冠军，得胜者
+copper	[ˈkɔpə]	n.铜；铜币，铜制器
+expensive	[iksˈpensiv]	a.昂贵的，花钱多的
+proportion	[prəˈpɔː∫ən]	n.比，比率，部分
+not	[nɔt]	ad.不，没有
+public	[ˈpʌblik]	a.公众的	n.公众
+amplify	[ˈæmplifai]	vt.放大，增强；扩大
+mask	[mɑːsk]	n.面具；伪装	vt.掩饰
+lady	[ˈleidi]	n.女士，夫人；贵妇人
+management	[ˈmænidʒmənt]	n.管理；经营，处理
 nice	[nais]	a.美好的，令人愉快的
-let	[let]	vt.允许，让；使
-habitual	[həˈbitjuəl]	a.习惯性的，惯常的
-alarm	[əˈlɑːm]	n.惊恐，忧虑；警报
-disable	[disˈeibl]	vt.使无能，使伤残
-brisk	[brisk]	a.活泼的；清新的
-notebook	[ˈnəutbuk]	n.笔记本，期票簿
-grandson	[ˈgrændsʌn]	n.孙子，外孙子
-transmission	[trænzˈmi∫ən]	n.传送;传动;发射
-safe	[seif]	n.保险箱
-hesitate	[ˈheziteit]	vi.犹豫，踌躇；含糊
-snake	[sneik]	n.蛇
-tuition	[tjuːˈi∫ən]	n.教，教诲；学费
+indirect	[ˌindiˈrekt]	a.间接的；不坦率的
+amuse	[əˈmjuːz]	vt.逗…乐；给…娱乐
+eve	[iːv]	n.前夜，前夕，前一刻
+bang	[bæŋ]	n.巨响，枪声；猛击
+riddle	[ˈridl]	n.谜，谜语
+contract	[ˈkɔntrækt]	n.契约，合同；婚约
+wage	[weidʒ]	n.工资，报酬
+incident	[ˈinsidənt]	n.发生的事；事件
+response	[risˈpɔns]	n.作答，回答；响应
+rely	[riˈlai]	vi.依赖，依靠；信赖
+glance	[glɑːns]	vi.看一下	n.一瞥
+whether	[ˈ(h)weðə]	conj.是否
+republican	[riˈpʌblikən]	a.共和国的
+odd	[ɔd]	a.奇数的；单只的
+curtain	[ˈkəːtən]	n.帘，窗帘；幕(布)
+sweat	[swet]	n.汗	vi.出汗
+visual	[ˈvizjuəl]	a.看的；看得见的
+parcel	[ˈpɑːsl]	n.包裹，小包，邮包
+input	[ˈinput]	n.输入；投入的资金
+bee	[biː]	n.蜂，密蜂；忙碌的人

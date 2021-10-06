@@ -127,6 +127,10 @@ class Page3():
         #     labelall[x] = tk.Label(C,font = label1Font, text = eachword, bg = "#ffb4a2")
         #     labelall[x].pack(pady = 30)
 
+        label1Font = ('Maiandra GD', 13)
+        b = tk.Button(C, text = 'I have finished learning them!', font=label1Font, bg = '#F9D1D1', command = ok)
+        b.pack(padx=100, pady=30)
+
         ws.mainloop()
         
         return tageswords
