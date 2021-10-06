@@ -12,7 +12,8 @@ goal = p2.getgoal(p2)
 choice = Page1.getchoice()
 print(choice, goal)
 
+rewardnote()
+
 from Page3 import Page3
 p3 = Page3()
 tageswords = p3.select_channel(goal, str(choice))
-rewardnote()

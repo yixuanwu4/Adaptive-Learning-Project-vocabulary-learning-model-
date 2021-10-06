@@ -45,7 +45,6 @@ class Page3():
             image = Image.open("/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png")
             # resize the image with width and height of root
             resized = image.resize((e.width, e.height), Image.ANTIALIAS)
-
             image2 = ImageTk.PhotoImage(resized)
             C.create_image(0, 0, image=image2, anchor='nw')
         
@@ -127,10 +126,10 @@ class Page3():
 
 
 
-x = Page3()
-choice="CET4"
-goal = 5
-x.select_channel(goal, choice)
+# x = Page3()
+# choice="CET4"
+# goal = 5
+# print(x.select_channel(goal, choice))
 
 
 
