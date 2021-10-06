@@ -1,5 +1,50 @@
-rest	n.剩余部分；其余的人
-operator	[ˈɔpəreitə]	n.操作人员，接线员
-oven	[ˈʌvən]	n.炉，灶；烘箱
-friendship	[ˈfrend∫ip]	n.友谊，友好
-tool	[tuːl]	n.工具，器具，用具
+court	[kɔːt]	n.法院，法庭；庭院
+carrier	[ˈkæriə]	n.运输工具；运载工具
+capital	[ˈkæpitəl]	n.资本，资金；首都
+sing	[siŋ]	vi.&vt.唱，演唱
+unusually	[ʌnˈjuːʒəli]	a.不平常地，非常
+maintain	[meinˈtein]	vt.维持；赡养；维修
+anchor	[ˈæŋkə]	n.锚	vi.抛锚，停泊
+horn	[hɔːn]	n.号角；警报器；角
+sympathetic	[ˌsimpəˈθetik]	a.同情的；和谐的
+legal	[ˈliːgəl]	a.法律的；合法的
+ankle	[ˈæŋkl]	n.踝，踝节部
+resignation	[ˌrezigˈnei∫ən]	n.放弃，辞职，反抗
+via	[ˈvaiə]	prep.经过；通过
+widely	[ˈwaidli]	ad.广，广泛
+goods	[gudz]	n.货物，商品
+fraction	[ˈfræk∫ən]	n.小部分；片断；分数
+output	[ˈautput]	n.产量；输出量；输出
+manager[	ˈmænidʒə]	n.经理，管理人
+sour	[ˈsauə]	a.酸的；脾气坏的
+chapter	[ˈt∫æptə]	n.章，回，篇
+shave	[∫eiv]	vt.剃，刮	vi.修面
+primitive	[ˈprimitiv]	a.原始的；粗糙的
+sack	[sæk]	n.袋，麻袋；开除
+accordingly	[əˈkɔːdiŋli]	ad.因此，所以；照着
+university	[ˌjuːniˈvəːsiti]	n.大学，综合性大学
+sauce	[sɔːs]	n.调味汁，酱汁
+straight	[streit]	a.直的；正直的	ad.直
+shrink[∫riŋk]	vi.收缩；缩小；退缩
+overtake	[ˈəuvəˈteik]	vt.追上，赶上；压倒
+comparative	[kəmˈpærətiv]	a.比较的，相对的
+inner	[ˈinə]	a.内部的；内心的
+sandwich	[ˈsænwidʒ]	n.三明治	vt.夹入
+clap	[klæp]	vi.拍手	vt.拍，轻拍
+imply	[imˈplai]	vt.暗示，意指
+gray	[grei]	a.灰色的	n.灰色
+feedback	[ˈfiːdbæk]	n.回授，反馈，反应
+intellectual	[ˌintiˈlektjuəl]	n.知识分子	a.智力的
+nice	[nais]	a.美好的，令人愉快的
+let	[let]	vt.允许，让；使
+habitual	[həˈbitjuəl]	a.习惯性的，惯常的
+alarm	[əˈlɑːm]	n.惊恐，忧虑；警报
+disable	[disˈeibl]	vt.使无能，使伤残
+brisk	[brisk]	a.活泼的；清新的
+notebook	[ˈnəutbuk]	n.笔记本，期票簿
+grandson	[ˈgrændsʌn]	n.孙子，外孙子
+transmission	[trænzˈmi∫ən]	n.传送;传动;发射
+safe	[seif]	n.保险箱
+hesitate	[ˈheziteit]	vi.犹豫，踌躇；含糊
+snake	[sneik]	n.蛇
+tuition	[tjuːˈi∫ən]	n.教，教诲；学费

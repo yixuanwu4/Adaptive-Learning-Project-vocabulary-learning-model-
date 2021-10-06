@@ -1,4 +1,4 @@
-from tkinter.constants import ANCHOR, BOTH, CENTER, END, INSERT, LEFT, NW, RIGHT, SINGLE, Y, YES
+from tkinter.constants import ANCHOR, BOTH, CENTER, END, INSERT, LEFT, NW, RIGHT, SINGLE, TOP, Y, YES
 from tkinter import messagebox
 import io
 import tkinter as tk
@@ -53,7 +53,7 @@ class Page3():
         
         # Define a label for the list.  
         label1Font = ("Baskerville Old Face", 20)
-        label = tk.Label(C, bg = '#F9D1D1', font=label1Font, text = " Now let's start learning! \n Here are your words for today!") 
+        label = tk.Label(C, bg = '#b5e48c', highlightthickness=10,  bd = 10, font=label1Font, text = " Now let's start learning! \n Here are your words for today!") 
         label.pack(padx=20, pady=30)
 
         # Pick the right vocabulary list
@@ -93,10 +93,6 @@ class Page3():
         tageswords = random.sample(wordslist, goal)
         print(tageswords)
 
-        ### Next step to save daily words into a file with data
-        ### then add gamification factors into the word memorizing part
-        ### meow meow meow food food 
-
         # Convert the tageswords into a string
         wordsstring = ''
         for words in tageswords:
@@ -113,11 +109,23 @@ class Page3():
         with open(completePath, 'w') as f:
             f.write(wordsstring)
         
-        labelall = {}
-        
-        for x, eachword in enumerate(tageswords):
-            labelall[x] = tk.Label(C,font = label1Font, text = eachword, bg = "#ffb4a2")
-            labelall[x].pack(pady = 30)
+
+
+        # It's better to put the "daily learning words" in a scroll bar
+        # because the number of words a user might set as the daily goal can be different
+        scrollbar = tk.Scrollbar(C)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        listbox = tk.Listbox(C, width = 50, highlightthickness=10,  bd=10, height = 50, justify=CENTER, yscrollcommand=scrollbar.set)
+        for i in range(len(tageswords)):
+            listbox.insert(tk.END, tageswords[i])
+        listbox.pack()
+        listbox.configure(background="#fde2e4", foreground="#14213d", font=('Courier 18'), justify = CENTER)
+        scrollbar.config(command=listbox.yview)
+        # labelall = {}
+        # for x, eachword in enumerate(tageswords):
+        #     labelall[x] = tk.Label(C,font = label1Font, text = eachword, bg = "#ffb4a2")
+        #     labelall[x].pack(pady = 30)
 
         ws.mainloop()
         
@@ -126,10 +134,10 @@ class Page3():
 
 
 
-# x = Page3()
-# choice="CET4"
-# goal = 5
-# print(x.select_channel(goal, choice))
+x = Page3()
+choice="CET4"
+goal = 50
+print(x.select_channel(goal, choice))
 
 
 
