@@ -1,4 +1,4 @@
-from tkinter.constants import ANCHOR, BOTH, CENTER, END, INSERT, LEFT, NW, RIGHT, SINGLE, TOP, Y, YES
+from tkinter.constants import ANCHOR, BOTH, CENTER, END, FLAT, INSERT, LEFT, NW, RIGHT, SINGLE, TOP, VERTICAL, W, Y, YES
 from tkinter import messagebox
 import io
 import tkinter as tk
@@ -55,6 +55,11 @@ class Page3():
         label1Font = ("Baskerville Old Face", 20)
         label = tk.Label(C, bg = '#b5e48c', highlightthickness=10,  bd = 10, font=label1Font, text = " Now let's start learning! \n Here are your words for today!") 
         label.pack(padx=20, pady=30)
+
+        b = tk.Button( C, text = 'I have finished learning them!', font=label1Font, bg = '#F9D1D1', command = ok, anchor = W)
+        b.configure(width = 50, activebackground = "#33B5E5", relief = FLAT)
+        
+        b.pack(side = tk.BOTTOM, padx=50, pady = 50)
 
         # Pick the right vocabulary list
         def extract_words (cet4, cet6, toefl):
@@ -113,23 +118,17 @@ class Page3():
 
         # It's better to put the "daily learning words" in a scroll bar
         # because the number of words a user might set as the daily goal can be different
-        scrollbar = tk.Scrollbar(C)
-        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
-
-        listbox = tk.Listbox(C, width = 50, highlightthickness=10,  bd=10, height = 50, justify=CENTER, yscrollcommand=scrollbar.set)
+        scrollbar = tk.Scrollbar(C, orient=VERTICAL, width=20 )
+        scrollbar.pack(side="right", fill = tk.Y)
+        listbox = tk.Listbox(C, width = 50, highlightthickness=10,  bd=10, height = 50, justify=CENTER)
         for i in range(len(tageswords)):
             listbox.insert(tk.END, tageswords[i])
-        listbox.pack()
-        listbox.configure(background="#fde2e4", foreground="#14213d", font=('Courier 18'), justify = CENTER)
+        
+        listbox.configure(background="#fde2e4", foreground="#14213d", font=('Courier 18'),yscrollcommand=scrollbar.set, justify = CENTER)
         scrollbar.config(command=listbox.yview)
-        # labelall = {}
-        # for x, eachword in enumerate(tageswords):
-        #     labelall[x] = tk.Label(C,font = label1Font, text = eachword, bg = "#ffb4a2")
-        #     labelall[x].pack(pady = 30)
+        listbox.pack(padx=10, pady=10)
 
-        label1Font = ('Maiandra GD', 13)
-        b = tk.Button(C, text = 'I have finished learning them!', font=label1Font, bg = '#F9D1D1', command = ok)
-        b.pack(padx=100, pady=30)
+
 
         ws.mainloop()
         
@@ -138,10 +137,10 @@ class Page3():
 
 
 
-x = Page3()
-choice="CET4"
-goal = 50
-print(x.select_channel(goal, choice))
+# x = Page3()
+# choice="CET4"
+# goal = 50
+# print(x.select_channel(goal, choice))
 
 
 
