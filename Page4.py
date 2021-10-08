@@ -1,25 +1,24 @@
-from tkinter.constants import ANCHOR, BOTH, CENTER, END, INSERT, LEFT, NW, RIGHT, SINGLE, W, Y, YES
+from tkinter.constants import ANCHOR, BOTH, CENTER, END, INSERT, LEFT, NW, RIGHT, SINGLE, Y, YES
 from tkinter import messagebox
 import io
 import tkinter as tk
 from tkinter import messagebox
 from tkinter.font import families
-import random
-from typing_extensions import IntVar
+from game import Dog
 from PIL import ImageTk, Image
-import datetime
-import os.path
-import pandas as pd
+from Page5 import Page5Dog, Page5Cat
 
+p5Dog = Page5Dog()
+p5Cat = Page5Cat()
 
-# This class takes the user daily goal number to randomly select amount of words from the selected vocabulary list
-class Page3():
+# Page 4 asks the user to determine which pet he/she wants to select
 
+class Page4():
     def __init__(self):
           # this is an instance variable.
           self.somevar2 = 0
 
-    def select_channel(self, tageswords):
+    def select_channel(self, *args):
 
         def ok():
             ws.destroy()
@@ -33,10 +32,10 @@ class Page3():
         frame.pack(side = LEFT, fill = BOTH, expand = True)
 
         # Create canvas
-        C = tk.Canvas(frame, bg="pink", height=768, width=1024)
+        C = tk.Canvas(frame, bg="pink", height=788, width=1024)
         C.pack(fill=BOTH, expand=True)
 
-        filename = tk.PhotoImage(file = "/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png", master = ws)
+        filename = tk.PhotoImage(file = "/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png")
         C.create_image(0, 0, image = filename, anchor='nw')
 
         # Function to resize the window
@@ -46,51 +45,45 @@ class Page3():
             image = Image.open("/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png")
             # resize the image with width and height of root
             resized = image.resize((e.width, e.height), Image.ANTIALIAS)
+
             image2 = ImageTk.PhotoImage(resized)
             C.create_image(0, 0, image=image2, anchor='nw')
         
         # Bind the function to configure the parent window
         frame.bind("<Configure>", resize_image)
         
-        # Define a label for the list.  
-        label1Font = ("Baskerville Old Face", 20)
-        label = tk.Label(C, bg = '#F9D1D1', font=label1Font, text = " Now let's test how much you learned :)") 
-        label.pack(padx=20, pady=30)
+                
+        # Creating and resizing a photoimage object to use image 
+        dogbuttonphoto = Image.open("dog.png")
+        dogbuttonphoto = dogbuttonphoto.resize((400,300), Image.ANTIALIAS)
+        dogbuttonphoto = ImageTk.PhotoImage(dogbuttonphoto)
 
+        catbuttonphoto = Image.open("cat.png")
+        catbuttonphoto = catbuttonphoto.resize((400,300), Image.ANTIALIAS)
+        catbuttonphoto = ImageTk.PhotoImage(catbuttonphoto)
 
-        # Convert the tageswords into a string
-        wordsstring = ''
-        for words in tageswords:
-            tmp = '\t'.join(words) + '\n'
-            wordsstring = wordsstring+tmp
+        # Adding widgets to the root window
+        tk.Label(C, text = 'Congratulations on completing your daily task! \n Now as your reward, \n please pick the animal which you wanna keep as a pet!', font =(
+        'Verdana', 25)).pack(side = tk.TOP, pady = 10)
         
-        words_meaning = {}
-        
-        for x, eachword in enumerate(tageswords):
-            words_meaning[eachword[0]] = eachword[-1] 
-            
+        def nextPageDog():
+            ws.destroy()
+            p5Dog.select_channel()
 
-        def questions(words_meaning):
-            v = tk.IntVar()
-            tk.Label(text = "Q: What is the meaning of this word",font=("arial",12,"bold")).place(x=10,y=50)
-            tk.Radiobutton(text=words_meaning[0],font=("arial",12),variable = v, value=words_meaning[0]).pack(anchor = W)
-            tk.Radiobutton(text=words_meaning[1],font=("arial",12),variable = v, value=words_meaning[1]).pack(anchor = W)
-            tk.Radiobutton(text=words_meaning[2],font=("arial",12),variable = v, value=words_meaning[2]).pack(anchor = W)
-            tk.Radiobutton(text=words_meaning[3],font=("arial",12),variable = v, value=words_meaning[3]).pack(anchor = W)
-        questions(words_meaning)
+        def nextPageCat():
+            ws.destroy()
+            p5Cat.select_channel()
+
+        # here, image option is used to
+        # set image on button
+        pickdog = tk.Button(C, text = 'Click Me !', image = dogbuttonphoto, command = nextPageDog).pack(padx=15, pady=20)
+        pickcat = tk.Button(C, text = 'Click Me !', image = catbuttonphoto, command = nextPageCat).pack(padx=15, pady=20)
+
+
+
         ws.mainloop()
+  
+# x = Page4()
+# x.select_channel(x)
+
         
-        return tageswords
-            
-
-
-
-x = Page3()
-
-tageswords=[['rest', 'n.剩余部分；其余的人'], ['operator', '[ˈɔpəreitə]', 'n.操作人员，接线员'], ['oven', '[ˈʌvən]', 'n.炉，灶；烘箱'], ['friendship', '[ˈfrend∫ip]', 'n.友谊，友好'], ['tool', '[tuːl]', 'n.工具，器具，用具']]
-
-x.select_channel(tageswords)
-
-
-
-
