@@ -4,14 +4,10 @@ import io
 import tkinter as tk
 from tkinter import messagebox
 from tkinter.font import families
-from game import Dog
 from PIL import ImageTk, Image
 
+# Ask the user to name the pet
 class Page5Dog():
-
-    def __init__(self):
-          # this is an instance variable.
-          self.somevar2 = 0
 
     def select_channel(self, *args):
 
@@ -64,17 +60,13 @@ class Page5Dog():
         b.pack(padx=10, pady=100)
 
         ws.mainloop()
-        global goal
-        goal = string
+        global name
+        name = string
     
-    def getgoal(self, *args):
-        return goal
+    def getname(self, *args):
+        return name
 
 class Page5Cat():
-
-    def __init__(self):
-          # this is an instance variable.
-          self.somevar2 = 0
 
     def select_channel(self, *args):
 
@@ -127,11 +119,11 @@ class Page5Cat():
         b.pack(padx=10, pady=100)
 
         ws.mainloop()
-        global goal
-        goal = string
+        global name
+        name = string
     
-    def getgoal(self, *args):
-        return goal
+    def getname(self, *args):
+        return name
 
 # x = Page5()
 # x.select_channel(x)

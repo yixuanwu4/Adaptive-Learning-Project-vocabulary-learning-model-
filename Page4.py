@@ -65,23 +65,35 @@ class Page4():
         # Adding widgets to the root window
         tk.Label(C, text = 'Congratulations on completing your daily task! \n Now as your reward, \n please pick the animal which you wanna keep as a pet!', font =(
         'Verdana', 25)).pack(side = tk.TOP, pady = 10)
+
         
         def nextPageDog():
             ws.destroy()
             p5Dog.select_channel()
+            global petname
+            petname = 'dog'
+        
 
         def nextPageCat():
             ws.destroy()
             p5Cat.select_channel()
+            global petname
+            petname = 'cat'
 
         # here, image option is used to
         # set image on button
         pickdog = tk.Button(C, text = 'Click Me !', image = dogbuttonphoto, command = nextPageDog).pack(padx=15, pady=20)
         pickcat = tk.Button(C, text = 'Click Me !', image = catbuttonphoto, command = nextPageCat).pack(padx=15, pady=20)
 
-
-
         ws.mainloop()
+
+        if petname == 'dog':
+            return p5Dog.getname()
+        else:
+            return p5Cat.getname()
+
+        
+            
   
 # x = Page4()
 # x.select_channel(x)

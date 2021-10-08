@@ -2,6 +2,7 @@ from Page1 import Page1
 from Page2 import Page2
 from rewardnote import rewardnote
 from Page4 import Page4
+from Page5 import Page5Cat, Page5Dog
 
 p1 = Page1()
 p2 = Page2()
@@ -19,5 +20,5 @@ p3 = Page3()
 tageswords = p3.select_channel(goal, str(choice))
 
 p4 = Page4()
-p4.select_channel(p4)
+petname = p4.select_channel(p4)
 

@@ -1,3 +1,2 @@
-mile	[mail]	n.英里
-primitive	[ˈprimitiv]	a.原始的；粗糙的
-banana	[bəˈnɑːnə]	n.香蕉；芭蕉属植物
+myriad	['miriəd]	n.	无数	a.	无数的;	种种的
+temperate	['tempərit]	a.	温和的,适度的,有节制的
