@@ -1,0 +1,3 @@
+mutual	adj.相互的,共有的
+conference	n.会议,讨论会,协商会
+machinery	n.[总称]机器,机械

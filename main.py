@@ -20,5 +20,9 @@ p3 = Page3()
 tageswords = p3.select_channel(goal, str(choice))
 
 p4 = Page4()
-petname = p4.select_channel(p4)
+pet, name= p4.select_channel(p4)
+
+from Page6 import food
+p6 = food()
+p6.select_channel(name, goal)
 

@@ -88,9 +88,9 @@ class Page4():
         ws.mainloop()
 
         if petname == 'dog':
-            return p5Dog.getname()
+            return p5Dog.getname(), petname
         else:
-            return p5Cat.getname()
+            return p5Cat.getname(), petname
 
         
             
