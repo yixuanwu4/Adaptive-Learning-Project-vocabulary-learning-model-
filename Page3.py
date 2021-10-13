@@ -1,4 +1,4 @@
-from tkinter.constants import ANCHOR, BOTH, CENTER, END, FLAT, INSERT, LEFT, NW, RIGHT, SINGLE, TOP, VERTICAL, W, Y, YES
+from tkinter.constants import ANCHOR, BOTH, CENTER, END, FLAT, HORIZONTAL, INSERT, LEFT, NW, RIGHT, SINGLE, TOP, VERTICAL, W, Y, YES
 from tkinter import messagebox
 import io
 import tkinter as tk
@@ -11,7 +11,9 @@ import os.path
 import pandas as pd
 
 
-# This class takes the user daily goal number to randomly select amount of words from the selected vocabulary list
+# Page3 takes the user daily goal number to randomly select amount of words from the selected vocabulary list
+# The picked and learned words will be removed from the original dictionary and saved in another folder for review
+# For words whose definitions exceed the width of the listbox, use the right side key to see more
 class Page3():
 
     def __init__(self):
@@ -104,8 +106,34 @@ class Page3():
             tmp = '\t'.join(words) + '\n'
             wordsstring = wordsstring+tmp
 
+        #The following commented trunk removed the selected words from the original dictionary
+        """targetdict = choice+"_edited.txt"
+        with open(targetdict, "r") as fp:
+            lines = fp.readlines()
+
+        with open(targetdict, "w") as fp:
+            for i, line in enumerate(lines):
+                # seperate each line into parts so I can get the first item in this line
+                oneline = line.strip("\n")
+                newoneline = oneline.split()
+                # go through each word in the tageswords list
+                for items in tageswords:
+                    # pick the first English word in this item and compare with the first one of first item in the line
+                    if items[0] == newoneline[0]:
+                        # if these two are different then keep this line in the file
+                        print(items[0], newoneline[0])
+                        del lines[i]
+
+        new_file = open("CET6_edited1.txt", "w+")
+        for line in lines:
+            new_file.write(line)
+        new_file.close()"""
+
+
+
         # Save tageswords into a file with data
         # The file name will be the date when the saved words are learned
+        # So the user can review the words and the newly selected words won't be replicated with the old words
         time = datetime.datetime.now()
         template = '%Y-%m-%d'
         time_string = time.strftime(template)
@@ -115,17 +143,16 @@ class Page3():
             f.write(wordsstring)
         
 
-
         # It's better to put the "daily learning words" in a scroll bar
         # because the number of words a user might set as the daily goal can be different
-        scrollbar = tk.Scrollbar(C, orient=VERTICAL, width=20 )
-        scrollbar.pack(side="right", fill = tk.Y)
-        listbox = tk.Listbox(C, width = 50, highlightthickness=10,  bd=10, height = 50, justify=CENTER)
+        scrollbarY = tk.Scrollbar(C, orient=VERTICAL, width=20 )
+        scrollbarY.pack(side="right", fill = tk.Y)
+        listbox = tk.Listbox(C, width = 50, selectmode=tk.SINGLE, highlightthickness=10,  bd=10, height = 50, justify=CENTER)
         for i in range(len(tageswords)):
             listbox.insert(tk.END, tageswords[i])
         
-        listbox.configure(background="#fde2e4", foreground="#14213d", font=('Courier 18'),yscrollcommand=scrollbar.set, justify = CENTER)
-        scrollbar.config(command=listbox.yview)
+        listbox.configure(background="#fde2e4", foreground="#14213d", font=('Courier 18'), yscrollcommand=scrollbarY.set, width=0, height=0, justify = LEFT)
+        scrollbarY.config(command=listbox.yview)
         listbox.pack(padx=10, pady=10)
 
 
@@ -138,7 +165,7 @@ class Page3():
 
 
 # x = Page3()
-# choice="CET4"
+# choice="CET6"
 # goal = 50
 # print(x.select_channel(goal, choice))
 

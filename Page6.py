@@ -44,7 +44,7 @@ class food():
         # Bind the function to configure the parent window
         frame.bind("<Configure>", resize_image)
 
-        words = ["The food fed to the pet is redeemed \n by the equivalent amount of words memorized by the you today! ", "Your pet:", petname, " received ", str(goal), " snacks today! ", petname, " is very haapy! \n" + "Please come back and feed your pet again tomorrow!"]
+        words = ["The food fed to the pet is redeemed \n by the equivalent amount of words memorized by the you today! ", "Your pet:", petname, " received ", str(goal), " snacks today! ", petname, " is very happy! \n" + "Please come back and feed your pet again tomorrow!"]
         colours = ["black", "black", "blue", "black", "green", "black", "blue", "black"]
 
         label1Font = ("Baskerville Old Face", 20)
