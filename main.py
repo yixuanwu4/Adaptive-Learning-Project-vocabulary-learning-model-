@@ -1,3 +1,8 @@
+"""Pick the CET4_edited.txt, CET6_edited.txt, TOEFL_abridged.txt as example data to enable to user to choose 
+(resource: https://github.com/mahavivo/english-wordlists), """
+# After knowing the level of words which the user aims for practice, then pick the corresponded vocabulary list set.
+# After practicing 50 words each day, the number of learned words will be transfered into the same amount of food to "feed" the pet as reward
+
 from Page1 import Page1
 from Page2 import Page2
 from rewardnote import rewardnote

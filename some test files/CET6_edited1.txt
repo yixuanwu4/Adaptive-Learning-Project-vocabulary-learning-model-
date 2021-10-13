@@ -47,6 +47,7 @@ administratio  n.管理,经营,行政部门
 admit  v.容许,承认,接纳                
 adolescent  adj.青春期的,青春的;n.青少年                
 adopt  vt.采用,收养                
+adore  v.崇拜,爱慕,(口语)喜爱                
 advantage  n.优势,有利条件,利益                
 adverse  adj.不利的,敌对的,相反的                
 advocate  n.提倡者,鼓吹者;vt.提倡,鼓吹                
@@ -108,6 +109,7 @@ appraisal  n.评价,估价(尤指估价财产,以便征税),鉴定
 approach  n.接近,逼近,走进,方法,步骤,途径,通路;vt.接近,动手处理;vi.靠近              
 appropriate  adj.适当的                
 approve  vi.赞成,满意;vt.批准,通过;v.批准                
+apt  adj.易于...的,有...倾向的,灵敏的,灵巧的,适当的,切题的,敏捷,倾向是              
 arbitrary  adj.任意的,武断的,独裁的,专断的                
 arc  n.弧,弓形,拱                
 arena  n.竞技场,舞台                
@@ -198,11 +200,13 @@ belly  n.腹部,胃;vi.涨满
 beneficial  adj.有益的,受益的,[法律]有使用权的;adj.有益的,得利的,[律]有使用权的              
 benefit  n.利益,好处;vt.有益于,有助于;vi.受益                
 betray  vt.出卖,背叛,泄露(秘密),露出...迹象                
+bewilder  vt.使迷惑,使不知所措,使昏乱                
 beyond  prep.在(到)...较远的一边,超过,那一边;adv.在远处;n.远处                
 bibliography  n.(有关一个题目或一个人的)书目,参考书目                
 biography  n.传记                
 bizarre  adj.奇异的(指态度,容貌,款式等)                
 blank  adj.空白的,空着的,失色的,没有表情的;n.空白,<美>表格                
+blaze  n.火焰,光辉,情感爆发;vi.燃烧,照耀,激发;vt.在树皮上刻路标,公开宣布              
 bleed  v.使出血,放血                
 blink  v.眨眼,闪亮,无视                
 blossom  n.花(尤指结果实者),花开的状态,兴旺期;vi.开花,兴旺,发展                
@@ -215,6 +219,7 @@ booklet  n.小册子
 boom  n.繁荣,隆隆声;v.发隆隆声,兴隆,大事宣传                
 booth  n.货摊,售货亭,棚                
 border  n.边界,国界,边,边沿,边境;vt.与...接壤,接近;v.接壤                
+boring  n.钻(孔);adj.令人厌烦的                
 bounce  v.(使)反跳,弹起,(指支票)被银行退票,弹跳;n.(球)跳起,弹回                
 bound  n.跃进,跳,范围,限度;adj.正要启程的,开往...去的,被束缚的,装订的;v.跳跃,限制              
 bowel  n.肠;adj.内部,同情心                
@@ -256,6 +261,7 @@ cabinet  n.(有抽屉或格子的)橱柜,<美>内阁;adj.<美>内阁的,小巧�
 cable  n.电缆,海底电报,缆,索;v.打(海底)电报                
 cafeteria  n.自助餐厅                
 calcium  n.[化]钙(元素符号Ca)                
+calorie  n.卡路里                
 cancel  vt.取消,删去                
 cancer  n.癌,毒瘤                
 candidate  n.候选人,投考者                
@@ -274,6 +280,7 @@ carve  v.雕刻,切开
 cast  n.投掷,铸件,脱落物,一瞥,演员表;v.投,抛,投射,浇铸,计算,派(角色)              
 casual  adj.偶然的,不经意的,临时的                
 casualty  n.伤亡                
+catastrophe  n.大灾难,大祸                
 cater  vi.备办食物,满足(需要),投合                
 cathedral  n.大教堂                
 catholic  n.天主教徒;adj.天主教的                
@@ -282,12 +289,14 @@ cautious  adj.谨慎的,小心的
 cavity  n.洞,空穴,[解剖]腔                
 cellar  n.地窖,地下室,酒窖,藏酒量                
 cemetery  n.墓地,公墓                
+census  n.人口普查                
 ceramic  adj.陶器的;n.陶瓷制品                
 cereal  n.谷类食品,谷类                
 certainty  n.确定,确实的事情                
 certify  v.证明,保证                
 challenge  n.挑战;vt.向...挑战                
 champagne  n.香槟酒,香槟色                
+champion  n.冠军,拥护者,战士;vt.拥护,支持                
 chant  n.圣歌                
 chapel  n.小礼拜堂,礼拜                
 character  n.(事物的)特性,性质,特征(的总和),(人的)品质,字符,性格,特征,人物;vt.写,刻,印,使具有特征            
@@ -312,6 +321,7 @@ clamp  n.夹子,夹具,夹钳;vt.夹住,夹紧
 clan  n.部落,氏族,宗族,党派                
 clarity  n.清楚,透明                
 clash  n.冲突,撞击声,抵触;v.(使)发出撞击声,猛撞,冲突                
+clasp  n.扣子,钩,紧握,抱住;v.扣紧,紧握,搂抱,密切合作                
 classic  n.杰作,名著;adj.第一流的                
 classical  adj.古典的,正统派的,古典文学的                
 classificatio  n.分类,分级                
@@ -320,10 +330,13 @@ clerk  n.职员,办事员,<美>店员
 client  n.[计]顾客,客户,委托人                
 cliff  n.悬崖,绝壁                
 climate  n.气候,风土,思潮                
+climax  n.高潮,顶点                
 cling  vi.粘紧,附着,紧贴,坚持(意见),墨守(习惯)                
 clip  n.夹子,回形针,子弹夹;vt.夹住,剪短,修剪                
 clockwise  adj.顺时针方向的;adv.顺时针方向地                
+clone  n.无性系,无性繁殖,克隆;v.无性繁殖,复制                
 closet  n.壁橱,储藏室,厕所;adj.关起门来的;vt.关入私室密谈                
+clue  n.线索                
 cluster  n.串,丛;vi.丛生,成群                
 clutch  v.抓住,攫住;n.离合器                
 coalition  n.合并,接合,联合                
@@ -367,6 +380,7 @@ companion  n.同伴,共事者
 comparable  adj.可比较的,比得上的                
 compare  v.比较,相比,比喻n.比较                
 comparison  n.比较,对照,比喻,比较关系                
+compartment  n.间隔间,车厢                
 compatible  adj.谐调的,一致的,兼容的                
 compel  vt.强迫,迫使                
 compensate  v.偿还,补偿,付报酬                
@@ -452,6 +466,7 @@ contemplate  v.凝视,沉思,预期,企图
 contempt  n.轻视,轻蔑,耻辱,不尊敬,[律]藐视法庭(或国会)                
 contend  v.斗争,竞争,主张                
 contention  n.争夺,争论,争辩,论点                
+contest  n.论争,竞赛;v.,争论,争辩,竞赛,争夺                
 continual  adj.连续的,频繁的,持续不断的                
 continuity  n.连续性,连贯性                
 contract  n.合同,契约,婚约;v.使缩短,感染,订约                
@@ -487,6 +502,7 @@ corresponding  adj.相应的,通讯的
 corrode  v.使腐蚀,侵蚀                
 corrupt  adj.腐败的,贪污的,被破坏的,混浊的,(语法)误用的;vt.使腐烂,腐蚀,使恶化;vi.腐烂,堕落            
 costume  n.装束,服装                
+council  n.政务会,理事会,委员会,参议会,讨论会议,顾问班子,立法班子                
 counsel  n.讨论,商议,辩护律师;vt.劝告,忠告                
 counter  n.计算器,计数器,计算者,柜台,筹码;adv.prep.相反地                
 counterpart  n.副本,极相似的人或物,配对物                
@@ -517,6 +533,7 @@ crucial  adj.至关紧要的
 crumble  v.弄碎,粉碎,崩溃;n.面包屑                
 crush  vt.压碎,碾碎,压服,压垮,粉碎,(使)变形                
 cucumber  n.[植]黄瓜                
+culminate  v.达到顶点                
 culture  n.文化,文明                
 cumulative  adj.累积的                
 curb  n.路边                
@@ -784,12 +801,14 @@ evidence  n.明显,显著,明白,迹象,根据,[物]证据,证物
 evident  adj.明显的,显然的                
 evil  adj.邪恶的,带来麻烦的,不幸的,有害的,诽谤的;n.邪恶,不幸,罪恶                
 evoke  vt.唤起,引起,博得                
+evolution  n.进展,发展,演变,进化                
 exaggerate  v.夸大,夸张                
 exceed  vt.超越,胜过;vi.超过其他                
 exception  n.除外,例外,反对,异议                
 exceptional  adj.例外的,异常的                
 excess  n.过度,剩于,无节制,超过,超额;adj.过度的,额外的                
 excessive  adj.过多的,过分的,额外                
+exchange  vt.交换,调换,兑换,交流,交易;n.交换,调换,兑换,交流,交易                
 exclaim  v.呼喊,惊叫,大声叫                
 exclude  vt.拒绝接纳,把...排除在外,排斥                
 exclusive  adj.排外的,孤高的,唯我独尊的,独占的,唯一的,高级的                
@@ -869,8 +888,10 @@ flask  n.瓶,长颈瓶,细颈瓶,烧瓶,小水瓶
 flat  adj.平坦的,扁平的,单调的,干脆的,无聊的;adv.平直地,正好,断然地;n.平面,一层,公寓;v.(使)变平,(使)降半音          
 flatter  vt.过分夸赞,奉承,阿谀,使高兴,使满意,(画,肖像上的形象)胜过(真人或实物)              
 flaw  n.缺点,裂纹,瑕疵,一阵狂风;vt.使破裂,使有缺陷,使无效;vi.生裂缝,变的有缺陷              
+flexible  adj.柔韧性,易曲的,灵活的,柔软的,能变形的,可通融的                
 fling  n.投,掷,猛冲,暴躁的行动,急冲,嘲弄,讥笑;vt.猛投,抛,掷,使陷入,挥动,嘲笑,扫视;vi.猛冲,直冲,急行          
 flip  vt.掷,弹,轻击,鞭等抽打,空翻;vi.用指轻弹,抽打,翻书页(或纸张),蹦跳;n.抛,弹,筋斗;adj.无礼的,冒失的,轻率的          
+float  n.漂流物,浮舟,浮萍,彩车;vi.浮动,飘浮,散播,摇摆,(计划等)付诸实行;vt.使漂浮,容纳,淹没,发行,用水注满          
 fluctuate  vi.变动,波动,涨落,上下,动摇;vt.使动摇,使波动,使起伏                
 flush  n.奔流,晕红,激动,萌芽,活力旺盛,发烧,一手同花的五张牌,惊鸟;adj.挥霍的,直接的,丰足的,泛滥的;adv.齐平地,直接地;vi.(脸)发红,奔涌,充沛,惊飞;vt.淹没,冲洗,使脸红,使齐平,使惊飞,使激动
 flutter  n.摆动,鼓翼,烦扰;vi.鼓翼,飘动,悸动,乱跳,烦扰;vt.拍(翅),使焦急              
@@ -890,6 +911,7 @@ formulate  vt.用公式表示,明确地表达,作简洁陈述;v.阐明
 fort  n.堡垒,边界上的贸易站                
 forthcoming  adj.即将来临的;n.来临                
 forum  n.古罗马城镇的广场(或市场),论坛,法庭,讨论会                
+fossil  n.化石,僵化的事物;adj.化石的,陈腐的,守旧的                
 foster  vt.养育,抚育,培养,鼓励,抱(希望);n.养育者,鼓励者                
 foul  adj.污秽的,邪恶的,恶劣的;vt.弄脏,妨害,污蔑,犯规;vi.腐烂,犯规,缠结;n.犯规,缠绕;adv.违反规则地,不正当地          
 fraction  n.小部分,片断,分数                
@@ -976,6 +998,7 @@ haunt  v.神鬼出没
 hawk  n.鹰,掠夺他人的人,鹰派成员;vi.放鹰,像鹰一般地袭击,清嗓,咳嗽;vt.捕捉,咳出,兜售,(沿街)叫卖,散播          
 hazard  n.冒险,危险,冒险的事;vt.冒...的危险,赌运气,使遭危险                
 heap  n.堆,大量,许多;vt.堆,堆起;v.堆积                
+heave  v.举起;n.举起                
 heel  n.脚后跟,踵,跟部                
 heighten  v.提高,升高                
 heir  n.继承人,后嗣                
@@ -1034,6 +1057,7 @@ immigrant  adj.(从外国)移来的,移民的,移居的;n.移民,侨民
 immune  adj.免疫的                
 impact  n.碰撞,冲击,冲突,影响,效果;vt.挤入,撞击,压紧,对...发生影响                
 impair  v.削弱                
+impart  vt.给予(尤指抽象事物),传授,告知,透露                
 impatient  adj.不耐烦的,急躁的,不耐心的                
 imperative  n.命令,诫命,需要,规则,祈使语气;adj.命令的,强制的,紧急的,必要的,势在必行的,[语法]祈使的            
 imperial  adj.皇帝的                
@@ -1053,6 +1077,7 @@ incline  n.倾斜,斜坡,斜面;vt.使倾向于,使倾斜;vi.倾向,倾斜
 inclusive  adj.包含的,包括的                
 incorporate  adj.合并的,结社的,一体化的;vt.合并,使组成公司,具体表现;vi.合并,混合,组成公司;vt.[律]结社,成为法人组织          
 incredible  adj.<口>难以置信的                
+incur  v.招致                
 indefinite  adj.模糊的,不确定的,[语]不定的                
 independence  n.独立,自主                
 indicative  adj.(～of)指示的,预示的,可表示的                
@@ -1111,6 +1136,7 @@ integral  adj.完整的,整体的,[数学]积分的,构成整体所需要的;n.[
 integrity  n.正直,诚实,完整,完全,完整性                
 intellect  n.智力                
 intellectual  adj.智力的,有智力的,显示智力的;n.知识分子                
+intelligent  adj.聪明的,伶俐的,有才智的,[计]智能的                
 intelligible  adj.可理解的                
 intense  adj.强烈的,剧烈的,热切的,热情的,激烈的                
 intensify  vt.加强;vi.强化                
@@ -1150,6 +1176,7 @@ isle  n.小岛,岛;vt.使成为岛屿;vi.住在岛屿上
 isolate  vt.使隔离,使孤立,使绝缘,离析;n.隔离种群                
 issue  n.出版,发行,论点,问题,结果,(水血)流出;vi.发行,流出,造成...结果,辩护,传下;vt.使流出,放出,发钞,发令,出书;[律]子女,后嗣        
 item  n.(可分类或列举的)项目,条款,(消息、情报等的)一则,一条                
+ivory  n.象牙                
 jeopardize  v.危害                
 jerk  n.性情古怪的人,急推,猛拉,肌肉抽搐,(生理)反射,牛肉干;vi.痉挛,急拉,颠簸地行进;vt.猛拉            
 jog  n.轻推,轻撞,漫步;v.轻推,(使)蹒跚行进,(使)慢跑                
@@ -1198,6 +1225,7 @@ literacy  n.有文化，有教养，有读写能力
 literal  adj.文字的,照字面上的,无夸张的                
 literary  adj.文学(上)的,从事写作的,文艺的,精通文学的,书本的                
 literature  n.文学(作品),文艺,著作,文献                
+litter  n.垃圾,(供动物睡眠或防冻用的)干草,树叶,(一)窝,轿,担架;vt.乱丢,铺草,弄乱;vi.产仔,乱丢垃圾            
 locality  n.位置,地点                
 locomotive  n.机车,火车头;adj.运动的                
 lofty  adj.高高的,崇高的,高傲的,高级的                
@@ -1362,6 +1390,7 @@ occasional  adj.偶然的,非经常的,特殊场合的,临时的
 occupation  n.职业,占有,占有(房屋等)期间                
 occupy  vt.占,占用,占领,占据                
 occur  vi.发生,出现                
+odor  n.气味,名声                
 offense  n.进攻                
 offensive  adj.讨厌的,无礼的,攻击性的;n.进攻,攻势                
 offset  n.偏移量,抵销,弥补,分支,平版印刷,胶印;vt.弥补,抵销,用平版印刷;vi.偏移,形成分支            
@@ -1384,6 +1413,7 @@ oriental  n.东方人(尤指中国人和日本人);adj.东方诸国的,亚洲的
 orientation  n.方向,方位,定位,倾向性,向东方                
 origin  n.起源,由来,起因,出身,血统,[数]原点                
 original  adj.最初的,原始的,独创的,新颖的;n.原物,原作                
+originate  vt.引起,发明,发起,创办;vi.起源,发生                
 ornament  n.装饰物,教堂用品;vt.装饰,修饰                
 orthodox  adj.正统的,传统的,习惯的,保守的,东正教的                
 outbreak  n.(战争的)爆发,(疾病的)发作                
@@ -1426,6 +1456,7 @@ partial  adj.部分的,局部的,偏袒的,偏爱的;n.泛音
 participant  n.参与者,共享者;adj.参与的                
 partition  n.分割,划分,瓜分,分开,隔离物;vt.区分,隔开,分割                
 passion  n.激情,热情                
+passive  adj.被动的                
 pastime  n.消遣,娱乐                
 pastry  n.面粉糕饼,馅饼皮                
 pasture  n.牧地,草原,牧场;v.放牧,牧(牛、羊)等,吃草                
@@ -1456,6 +1487,7 @@ periodic  adj.周期的,定期的
 periodical  adj.周期的,定期的;n.期刊,杂志                
 perish  vi.毁灭,死亡,腐烂,枯萎;vt.毁坏,使麻木                
 permanent  adj.永久的,持久的                
+permeate  vt.弥漫,渗透,透过,充满;vi.透入                
 permissible  adj.可允许的                
 perpetual  adj.永久的                
 perplex  v.困惑                
@@ -1464,8 +1496,10 @@ persistent  adj.持久稳固的
 perspective  n.透视画法,透视图,远景,前途,观点,看法,观点,观察                
 persuasion  n.说服,说服力                
 pessimistic  悲观的                
+pest  n.有害物                
 petition  n.请愿,情愿书,诉状,陈情书;v.请求,恳求,请愿                
 petty  adj.小的,不重要的,小规模的,小型的,细微的,小器的,卑鄙的                
+phase  n.阶段,状态,相,相位;v.定相                
 phenomenon  n.现象                
 physiological  adj.生理学的,生理学上的                
 pilgrim  n.圣地朝拜者,朝圣                
@@ -1520,6 +1554,7 @@ prescription  n.指示,规定,命令,处方,药方
 presentation  n.提供显示外观                
 preserve  vt.保护,保持,保存,保藏;vi.做蜜饯,禁猎;n.蜜饯,果酱,禁猎地,禁区,防护物              
 preside  v.主持                
+pressure  n.压,压力,电压,压迫,强制,紧迫                
 prestige  n.声望,威望,威信                
 presumably  adv.推测起来,大概                
 presume  vt.假定,假设,认为                
@@ -1550,6 +1585,7 @@ productivity  n.生产力
 profess  v.表示                
 profession  n.职业,专业,表白,宣布                
 professional  n.自由职业者,专业人员,职业运动员,职业艺人;adj.专业的,职业的                
+proficiency  n.熟练,精通,熟练程度                
 profitable  adj.有利可图的                
 profound  adj.深刻的,意义深远的,渊博的,造诣深的                
 progressive  n.改革论者,进步论者;adj.前进的,(税收)累进的,进步的                
@@ -1591,9 +1627,11 @@ purity  n.纯净,纯洁,纯度
 pursue  vt.追赶,追踪,追击,继续,从事                
 pursuit  n.追击                
 qualitative  adj.性质上的,定性的                
+quantify  vt.确定数量;v.量化                
 quantitative  adj.数量的,定量的                
 quart  n.夸脱(容量单位)                
 quarterly  n.季刊;adj.一年四次的,每季的;adv.每季地                
+quartz  n.石英                
 queer  n.同性恋者;adj.奇怪的,可疑的，不舒服的;vt.搞糟;                
 quench  vt.结束,熄灭，淬火;vi.熄灭,平息                
 quest  n.寻求                
@@ -1679,11 +1717,13 @@ reliance  n.信任,信心,依靠,依靠的人或物
 relief  n.(痛苦等的)减轻,(债务等的)免除,救济,调剂,安慰,浮雕,地貌                
 relieve  vt.减轻,解除,援救,救济,换班                
 religion  n.宗教,信仰                
+religious  adj.信奉宗教的,虔诚的,宗教上的,修道的,严谨的;n.僧侣,尼姑,修道士              
 relish  n.意味                
 reluctant  adj.不顾的,勉强的,难得到的,难处理的                
 rely  v.依赖,依靠,信赖,信任,依赖于                
 remain  vi.保持,逗留,剩余,残存                
 remainder  n.残余,剩余物,其他的人,[数]余数;v.廉价出售;adj.剩余的,出售剩书的              
+remedy  n.药物,治疗法,补救,赔偿;vt.治疗,补救,矫正,修缮,修补                
 remnant  n.残余,剩余,零料,残迹;adj.剩余的,残留的                
 remote  adj.遥远的,偏僻的,细微的                
 renaissance  n.复兴,复活,新生,文艺复兴,文艺复兴时期                
@@ -1767,6 +1807,7 @@ scent  n.气味,香味,香水,线索,嗅觉,臭迹;vt.闻出,嗅,发觉,循着�
 schedule  n.时间表,进度表;v.确定时间                
 scheme  n.安排,配置,计划,阴谋,方案,图解,摘要;v.计划,设计,图谋,策划                
 scope  n.(活动)范围,机会,余地                
+score  n.得分,乐谱,抓痕,二十,终点线,刻痕,帐目,起跑线;vt.把...记下,刻划,划线,获得,评价;vi.记分,刻痕,得分          
 scorn  n.轻蔑,嘲笑,被叱责的人;vt.轻蔑,不屑做                
 scramble  n.爬行,攀缘,抢夺,混乱;vi.攀缘,杂乱蔓延,争夺,拼凑,匆忙;vt.攀登,搅乱,使混杂              
 scrap  n.小片,废料,剪下来的图片,文章,残余物,废料,打架;vt.扔弃,敲碎,拆毁;vi.互相殴打;adj.零碎的,废弃的          
@@ -1906,6 +1947,7 @@ stern  adj.严厉的,苛刻的;n.船尾
 sticky  adj.粘的,粘性的                
 stimulus  n.刺激物,促进因素,刺激,刺激                
 stock  n.树干,库存,股票,股份,托盘,祖先,原料;adj.股票的,普通的,常备的,存货的,繁殖用的;vt.装把手于,进货,备有,放牧;vi.出新芽,采购      
+straightforward  adj.正直的,坦率的,简单的,易懂的,直接了当的;adv.坦率地                
 strain  n.过度的疲劳,紧张,张力,应变;vt.扭伤,损伤;v.拉紧,扯紧,(使)紧张,尽力              
 strand  n.绳、线之一股,线,绳,串,海滨,河岸;vi.搁浅;vt.使搁浅,使落后,使陷于困境,弄断,搓            
 strategy  n.策略,军略                
@@ -1921,6 +1963,7 @@ stroll  n.漫步,闲逛,四处流浪;v.闲逛,漫步,跋涉于
 stubborn  adj.顽固的,固执的,坚定的,坚决的,难应付的,难处理的                
 stumble  v.绊倒,使困惑,蹒跚,结结巴巴地说话,踌躇;n.绊倒,错误                
 stump  n.树桩,残余,烟头;v.掘去树桩,砍成树桩,绊倒,难住,截去                
+stun  vt.使晕倒,使惊吓,打晕;n.晕眩,打昏,惊倒                
 sturdy  adj.强健的,坚定的,毫不含糊的;n.[兽医]家畜晕倒病                
 subjective  adj.主观的,个人的                
 submarine  n.潜水艇,潜艇;adj.水下的,海底的                
@@ -1983,6 +2026,7 @@ tame  adj.(动物)驯服的,柔顺的,(人)没精打彩的,顺从的,被开垦�
 tan  n.日晒后的颜色,棕褐色,茶色;adj.棕褐色的,茶色;v.晒黑,晒成褐色                
 tangle  n.混乱状态;v.处于混乱状态                
 tanker  n.油轮                
+target  n.目标,对象,靶子                
 tariff  n.关税,关税表,税则,(旅馆,饭店等的)价目表、价格表;vt.课以关税                
 tease  n.揶揄,戏弄,逗惹;vt.取笑,逗恼,奚落,欺负,嘲弄,取笑,强求,梳理                
 tedious  adj.单调乏味的,沉闷的,冗长乏味的                
@@ -2100,6 +2144,7 @@ various  adj.不同的,各种各样的,多方面的,多样的
 vary  vt.改变,变更,使多样化;vi.变化,不同,违反                
 vast  adj.巨大的,辽阔的,大量的,巨额的                
 vegetation  n.[植]植被,(总称)植物、草木,(植物的)生长、呆板单调的生活                
+vehicle  n.交通工具,车辆,媒介物,传达手段                
 veil  n.面纱,面罩,帐,幕,掩饰物,遮蔽物,口实,假托;vt.戴面纱,隐藏,遮蔽,掩饰;vi.蒙上面纱            
 vein  n.血管,静脉,叶脉,翅脉,矿脉,纹理,性情,心绪;vt.使成脉络,象脉络般分布于              
 velocity  n.速度,速率,迅速,周转率                
@@ -2112,6 +2157,7 @@ verdict  n.[律](陪审团的)裁决,判决,判断,定论,结论
 verge  v.濒临;n.边缘                
 verify  vt.检验,校验,查证,核实;[计]打开或关闭文件的读写校验                
 versatile  adj.通用的,万能的,多才多艺的,多面手的                
+verse  n.韵文,诗,诗节,诗句,诗篇                
 version  n.译文,译本,翻译                
 versus  prep.对(指诉讼,比赛等中),与...相对                
 vertical  adj.垂直的,直立的,顶点的,[解]头顶的;n.垂直线,垂直面,竖向                
@@ -2134,6 +2180,7 @@ vivid  adj.生动的,鲜明的,鲜艳的,大胆的,清晰的,活泼的,逼真的
 vocal  adj.发嗓音的,声音的,有声的,歌唱的;n.元音,声乐作品                
 vocational  adj.职业的                
 void  n.空间,空旷,空虚,怅惘;adj.空的,无人的,空闲的,无效的,无用的,没有的              
+volume  n.卷,册,体积,量,大量,音量                
 voluntary  adj.自动的,自愿的,主动的,故意的,非官办的,志愿的,自发的                
 volunteer  n.志愿者,志愿兵;adj.志愿的,义务的,无偿的;v.自愿                
 vulgar  adj.粗俗的,庸俗的,普通的,通俗的,本土的;n.<古>平民,百姓                
@@ -2156,6 +2203,7 @@ wedge  n.楔;vt.楔入,楔进
 weird  adj.怪异的,超自然的,神秘的,不可思议的,超乎事理之外的;n.<古><苏格兰>命运,预言,符咒            
 whereas  conj.然而,反之,鉴于,尽管,但是                
 whereby  adv.凭什么,为何                
+whirl  v.(使)旋转,急动,急走;n.旋转,—连串快速的活动                
 withdraw  vt.收回,撤消;vi.缩回,退出;v.撤退                
 withhold  vt.使停止,拒给,保留,抑制;vi.忍住                
 witness  n.[律]证人,目击者,证据,证明,证词;vt.目击,为...作证,证明,表明;vi.作证,成为证据            
