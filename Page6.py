@@ -10,7 +10,7 @@ from PIL import ImageTk, Image
 
 class food():
 
-    def select_channel(self, petname, goal):
+    def select_channel(self, petname, pet, goal):
 
         def ok():
             ws.destroy()
@@ -44,6 +44,22 @@ class food():
         # Bind the function to configure the parent window
         frame.bind("<Configure>", resize_image)
 
+        if pet=="dog":
+            petbuttonphoto = Image.open("dog.png")
+            petbuttonphoto = petbuttonphoto.resize((200,150), Image.ANTIALIAS)
+            petbuttonphoto = ImageTk.PhotoImage(petbuttonphoto)
+        else:
+            petbuttonphoto = Image.open("cat.png")
+            petbuttonphoto = petbuttonphoto.resize((200,150), Image.ANTIALIAS)
+            petbuttonphoto = ImageTk.PhotoImage(petbuttonphoto)
+
+        def printtext():
+            from petnote import petnote
+            petnote(petname)
+
+        pickpet = tk.Button(C, bg="yellow", command = printtext, text = 'Click Me!', compound = "left", image = petbuttonphoto).place(x=70, y=170)
+        
+
         words = ["The food fed to the pet is redeemed \n by the equivalent amount of words memorized by the you today! ", "Your pet:", petname, " received ", str(goal), " snacks today! ", petname, " is very happy! \n" + "Please come back and feed your pet again tomorrow!"]
         colours = ["black", "black", "blue", "black", "green", "black", "blue", "black"]
 
@@ -69,4 +85,5 @@ class food():
 # petname = "Robin"
 # goal = 5
 # food1 = food()
-# food1.select_channel(petname, goal)
+# pet="cat"
+# food1.select_channel(petname, pet, goal)

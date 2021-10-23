@@ -29,5 +29,5 @@ name, pet= p4.select_channel(p4)
 
 from Page6 import food
 p6 = food()
-p6.select_channel(name, goal)
+p6.select_channel(name, pet, goal)
 

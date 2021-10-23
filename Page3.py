@@ -106,7 +106,8 @@ class Page3():
             tmp = '\t'.join(words) + '\n'
             wordsstring = wordsstring+tmp
 
-        #The following commented trunk removed the selected words from the original dictionary
+        # The following commented trunk removed the selected words from the original dictionary
+        # To test the following codes, please use the files in folder "some test files"
         """targetdict = choice+"_edited.txt"
         with open(targetdict, "r") as fp:
             lines = fp.readlines()

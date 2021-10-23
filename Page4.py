@@ -4,7 +4,6 @@ import io
 import tkinter as tk
 from tkinter import messagebox
 from tkinter.font import families
-from game import Dog
 from PIL import ImageTk, Image
 from Page5 import Page5Dog, Page5Cat
 
