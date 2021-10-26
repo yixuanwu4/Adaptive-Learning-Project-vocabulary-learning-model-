@@ -2,7 +2,7 @@
 # After practicing certain amount of words each day, the number of learned words will be transfered into the same amount of food to "feed" the pet as reward
 # This sample only provides the process for a user to open and use the software for the first time to learn the words
 """Pick the CET4_edited.txt, CET6_edited.txt, TOEFL_abridged.txt as example data to enable to user to choose 
-(resource: https://github.com/mahavivo/english-wordlists), """
+(vocabulary list resource: https://github.com/mahavivo/english-wordlists), """
 
 
 
