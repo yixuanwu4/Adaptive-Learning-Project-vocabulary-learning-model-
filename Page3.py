@@ -37,14 +37,14 @@ class Page3():
         C = tk.Canvas(frame, bg="pink", height=768, width=1024)
         C.pack(fill=BOTH, expand=True)
 
-        filename = tk.PhotoImage(file = "/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png", master = ws)
+        filename = tk.PhotoImage(file = "MyPaint1.png", master = ws)
         C.create_image(0, 0, image = filename, anchor='nw')
 
         # Function to resize the window
         def resize_image(e):
             global image, resized, image2
             # open image to resize it
-            image = Image.open("/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png")
+            image = Image.open("MyPaint1.png")
             # resize the image with width and height of root
             resized = image.resize((e.width, e.height), Image.ANTIALIAS)
             image2 = ImageTk.PhotoImage(resized)
@@ -138,7 +138,7 @@ class Page3():
         time = datetime.datetime.now()
         template = '%Y-%m-%d'
         time_string = time.strftime(template)
-        save_path = '/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/oldwords'
+        save_path = 'oldwords/'
         completePath = os.path.join(save_path, time_string + ".txt") 
         with open(completePath, 'w') as f:
             f.write(wordsstring)

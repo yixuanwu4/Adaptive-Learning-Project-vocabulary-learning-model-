@@ -39,7 +39,7 @@ class Page1():
         def resize_image(e):
             global image, resized, image2
             # open image to resize it
-            image = Image.open("/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png")
+            image = Image.open("MyPaint1.png")
             # resize the image with width and height of root
             resized = image.resize((e.width, e.height), Image.ANTIALIAS)
 

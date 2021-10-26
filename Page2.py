@@ -28,14 +28,14 @@ class Page2():
         C = tk.Canvas(frame, bg="pink", height=768, width=1024)
         C.pack(fill=BOTH, expand=True)
 
-        filename = tk.PhotoImage(file = "/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png")
+        filename = tk.PhotoImage(file = "MyPaint1.png")
         C.create_image(0, 0, image = filename, anchor='nw')
 
         # Function to resize the window
         def resize_image(e):
             global image, resized, image2
             # open image to resize it
-            image = Image.open("/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint1.png")
+            image = Image.open("MyPaint1.png")
             # resize the image with width and height of root
             resized = image.resize((e.width, e.height), Image.ANTIALIAS)
 

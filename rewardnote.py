@@ -25,14 +25,14 @@ def rewardnote():
     C = tk.Canvas(ws, bg="#ffc6ff", height=500, width=500)
     C.pack(fill=BOTH, expand=True)
 
-    filename = tk.PhotoImage(file = "/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint2.png", master = ws)
+    filename = tk.PhotoImage(file = "MyPaint2.png", master = ws)
     C.create_image(0, 0, image = filename, anchor='nw')
 
     # Function to resize the window
     def resize_image(e):
         global image, resized, image2
         # open image to resize it
-        image = Image.open("/home/nauxiy/Workspace/Adaptive learning/Term project + paper/data/MyPaint2.png")
+        image = Image.open("MyPaint2.png")
         # resize the image with width and height of root
         resized = image.resize((e.width, e.height), Image.ANTIALIAS)
 
